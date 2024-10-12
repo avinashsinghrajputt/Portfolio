@@ -27,7 +27,18 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer '>Avinash 
             </p>
         </Link>
-        <p className='text-red-500'>asdsa</p>
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((Link) => (
+            <li key={Link.id} className={`${active===Link.title
+              ? "text-white"
+              : "text-secondary"
+            }
+            hover:text-white text-[18px] font-medium cursor-pointer
+            `}>
+              <a href={`#${Link.id}`}>{Link.title} </a>
+            </li>
+          ))}
+        </ul> 
       </div>
 
 
