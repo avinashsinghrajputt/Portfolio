@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav
       className={`${styles.paddindx} w-full flex 
     items-center py-5 fixed top-0 z-20 bg-primary`}>
-
+ 
       <div className='w-full flex justify-between items-center 
     max-w-7xl mx-auto'>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
               ? "text-white"
               : "text-secondary"
             }
-            hover:text-white text-[18px] font-medium cursor-pointer
+            hover:text-red text-[18px] font-medium cursor-pointer
             `}>
               <a href={`#${Link.id}`}>{Link.title} </a>
             </li>
