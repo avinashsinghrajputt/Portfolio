@@ -33,7 +33,7 @@ const Navbar = () => {
               ? "text-white"
               : "text-secondary"
             }
-            hover:text-white text-[19px] font-medium cursor-pointer
+            hover:text-white text-[18px] font-medium cursor-pointer
             `}>
               <a href={`#${Link.id}`}>{Link.title} </a>
             </li>
