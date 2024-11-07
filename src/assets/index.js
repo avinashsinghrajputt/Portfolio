@@ -4,31 +4,36 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedIn from "./linkedIn.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import demo from "./demo.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
 import reactjs from "./tech/reactjs.png";
+import nextJs from "./tech/nextjs.svg";
+import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import nickelfox from "./company/nickelfox.png";
+import newgen from "./company/newgen.png";
+import skillrisers from "./company/skillrisers.png";
+import proximus from "./company/proximus.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aptihealthWeb from "./projects/aptihealthWeb.png";
+import aptihealthApp from "./projects/aptihealthApp.png";
+import zealWeb from "./projects/zealWeb.png";
+import zealApp from "./projects/zealApp.png";
+import rollWeb from "./projects/rollWeb.png";
+import rollApp from "./projects/rollApp.png";
 
 export {
   logo,
@@ -37,26 +42,32 @@ export {
   mobile,
   web,
   github,
+  linkedIn,
+  demo,
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
+  java,
+  mysql,
   reactjs,
+  nextJs,
+  angular,
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  nickelfox,
+  newgen,
+  skillrisers,
+  proximus,
+  aptihealthWeb,
+  aptihealthApp,
+  zealWeb,
+  zealApp,
+  rollWeb,
+  rollApp,
 };
